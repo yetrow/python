@@ -10,8 +10,9 @@ sent_message=[]
 #print(sent_message)
 #print(message)
 #print("----")
-#消息归档
-shows(message[:],sent_message)
+
+
+shows(message[:],sent_message)#通过[:]实现消息归档
 print(message)
 print(sent_message)
 
